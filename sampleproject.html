@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="sampleproject.css">
+</head>
+<body>
+    <!-- navgation bar -->
+     <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"><b>The Curiosity Corner</b></a>
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bc-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About ">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Service">Service</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#Product">Product</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><b>The Curiosity Corner</b></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+      aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Service">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Product">Product</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- hero section -->
+<div class="container-fluid py-5 bg-primary text-white text-center home">
+  <h1>The Fabric House</h1>
+  <p>Highlights the website's role as a supplier of fabrics!</p> 
+</div>
+<!-- about section -->
+  <section>
+<div id="About" class="mt-5 py-3">
+<div class="container "> 
+<div class="row">
+<div class="col-sm-6">
+    <h1>About</h1>
+    <br>
+    <p>The "Curiosity Corner" is likely a textile shop or a store selling a variety of curiosities, possibly including textiles, based on the search results. It appears to have multiple locations, including one in Dingle, Philippines. The shop may also offer other items like antique lace and textile-inspired designs. </p> 
+    <p> textile-inspired designs and work with antique lace, suggesting that "Curiosity Corner" may be associated with lace and other textile-related items, </p>
+    <p>The term "curiosity shop" itself suggests that the store may also sell a range of unusual or interesting items, possibly including travel-related souvenirs, </p>
+</div>
+<div class="  col-xl-3 col-lg-4 col-sm-6">
+  <img src="shelf.jpg" alt="" class="w-100">
+    </div>
+</div>
+</div>
+</div>
+
+<!-- service section -->
+<section id="Service" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Services</h2>
+    <div class="row justify-content-center">
+      
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="clothing.jpeg" alt="Handmade fabric clothing" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h4 class="card-title">Textiles & Clothing</h4>
+            <p class="card-text">With people getting fashion-conscious and wanting to be better at sustainability, many are turning to locally sourced clothes and fabric material. From a dress to a crop top, options are endless with handmade fabrics.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="textiles.jpg" alt="Surface design fabric" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h4 class="card-title">Surface Design</h4>
+            <p class="card-text">Textile surface design focuses on creating visual patterns and textures on fabric using techniques like printing, embroidery, and other surface manipulations.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="cloth-shop-furniture.jpg" alt="Interior textile design" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h4 class="card-title">Textile Interior Service</h4>
+            <p class="card-text">Full-service design offers a complete, stress-free solution with professional guidance from start to finish, ideal for both major and smaller home projects.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Product Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-5">Products</h2>
+  <div class="row g-4">
+
+    <!-- Natural Fibers -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="mans.jpg" alt="Natural fibers like cotton and silk" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Natural Fibers</h4>
+          <p class="card-text">Natural fibers are raw materials from plants, animals, or minerals. Examples include cotton, silk, wool, flax, and hemp. They are typically classified as vegetable (cellulose-based) or animal (protein-based).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Innovative Fibers -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="images (3).jpeg" alt="Innovative fiber applications" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Innovative Fibers</h4>
+          <p class="card-text">Innovative fibers offer unique properties like sustainability, temperature regulation, or smart integration. These advanced materials are used in fashion, tech, and specialized textiles.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Industrial Fibers -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="poly.jpg" alt="Industrial fibers for heavy-duty use" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Industrial Fibers</h4>
+          <p class="card-text">Used in ropes, composites, and technical fabrics, industrial fibers include polyethylene, hemp, and carbon fiber, valued for durability and resistance to chemicals or wear.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Synthetic Fibers -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="istockphoto.jpg" alt="Various synthetic fiber samples" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Synthetic Fibers</h4>
+          <p class="card-text">Synthetic fibers like nylon, polyester, and acrylic are man-made using polymers. Known for strength, consistency, and affordability, they are widely used in clothing and upholstery.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="poly.jpg" alt="Industrial fibers for heavy-duty use" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Industrial Fibers</h4>
+          <p class="card-text">Used in ropes, composites, and technical fabrics, industrial fibers include polyethylene, hemp, and carbon fiber, valued for durability and resistance to chemicals or wear.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card h-100">
+        <img src="poly.jpg" alt="Industrial fibers for heavy-duty use" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title">Industrial Fibers</h4>
+          <p class="card-text">Used in ropes, composites, and technical fabrics, industrial fibers include polyethylene, hemp, and carbon fiber, valued for durability and resistance to chemicals or wear.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+       
+   <!-- Contact Section --> 
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Contact Us</h2>
+    <form action="#" method="post">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        >
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+        >
+      </div>
+
+      <div class="mb-4">
+        <label for="msg" class="form-label">Message</label>
+        <textarea
+          class="form-control"
+          id="msg"
+          name="message"
+          rows="4"
+          placeholder="Your message"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p class="mb-0">© 2025 The Curiosity Corner. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
